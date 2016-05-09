@@ -25,20 +25,20 @@
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
-      {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label }}</a></li>
+      {% if author.instagram %}
+        <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+      {% endif %}
+      {% if author.facebook %}
+        <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+      {% endif %}
+      {% if author.twitter %}
+        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label }}</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fa fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
-      {% endif %}
-      {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      {% endif %}
-      {% if author.facebook %}
-        <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
       {% endif %}
       {% if author.google_plus %}
         <li><a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fa fa-fw fa-google-plus-square" aria-hidden="true"></i> Google+</a></li>
@@ -48,9 +48,6 @@
       {% endif %}
       {% if author.xing %}
         <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fa fa-fw fa-xing-square" aria-hidden="true"></i> XING</a></li>
-      {% endif %}
-      {% if author.instagram %}
-        <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
       {% endif %}
       {% if author.tumblr %}
         <li><a href="https://{{ author.tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr-square" aria-hidden="true"></i> Tumblr</a></li>
@@ -96,6 +93,9 @@
       {% endif %}
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fa fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
+      {% endif %}
+      {% if author.uri %}
+        <li><a href="{{ author.uri }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label }}</a></li>
       {% endif %}
     </ul>
   </div>

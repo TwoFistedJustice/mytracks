@@ -13,6 +13,12 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+
+  background: url(/images/background.jpg);
+  -webkit-background-size: 150%;
+  -moz-background-size: 150%;
+  -o-background-size: 150%;
+  background-size: 150%;
 }
 
 h1, h2, h3, h4, h5, h6 {

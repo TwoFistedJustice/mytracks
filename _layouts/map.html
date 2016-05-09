@@ -1,0 +1,30 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    <link href="https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css" rel='stylesheet' />
+    <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css" rel="stylesheet" />
+    <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css" rel="stylesheet" />
+
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+    {{ content }}
+
+    <script src="https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js"></script>
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
+    <script src="{{ base_path }}/assets/js/map/moment.min.js"></script>
+    <script src="{{ base_path }}/assets/js/map/moment-range.min.js"></script>
+    <script src="{{ base_path }}/assets/js/map/random-color.min.js"></script>
+    <script src="{{ base_path }}/assets/js/map/photos.js"></script>
+    <script src="{{ base_path }}/assets/js/map/map.js"></script>
+  </body>
+</html>

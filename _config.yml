@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "MyTracks"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+name                     : "Chris Hunt"
+description              : "Adventure and Dual-Sport Motorcycle GPS Tracks"
+url                      : # "http://www.250adv.com"
+baseurl                  : # "/"
 gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : teasers/default.jpg
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -34,10 +34,12 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
+instagram:
+  username               : "huntca"
 twitter:
   username               :
 facebook:
-  username               :
+  username               : "mytracksco"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -61,22 +63,22 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Chris Hunt"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "🌲 Adventuring"
+  location         : "Oregon"
+  email            : "c@mytracks.co"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "mytracksco"
   foursquare       :
   github           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "huntca"
   lastfm           :
   linkedin         :
   pinterest        :
@@ -90,6 +92,7 @@ author:
   xing             :
   youtube          :
 
+showrss: false
 
 # Reading Files
 include:
@@ -146,9 +149,9 @@ kramdown:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+permalink: /notes/:year/:month/:day/:title/
+paginate: 500 # amount of posts to show
+paginate_path: /notes/page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -181,10 +184,10 @@ whitelist:
 #  - <base_path/my-awesome-category/index.html ~> path: /
 categories:
   type: liquid
-  path: /categories/
+  path: /notes/categories/
 tags:
   type: liquid
-  path: /tags/
+  path: /notes/tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -204,3 +207,22 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
