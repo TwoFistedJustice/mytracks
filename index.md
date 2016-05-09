@@ -1,6 +1,6 @@
 ---
 title: "Adventure Time"
-author_profile: false
+author_profile: true
 header:
   overlay_image: splash-photo.jpg
   overlay_filter: 0.6
