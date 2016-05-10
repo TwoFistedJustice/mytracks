@@ -1,8 +1,12 @@
-<p>
+<figure>
   <iframe
     width="100%"
     height="300"
     src="/map-embed.html?{{ include.params }}"
     frameborder="0">
   </iframe>
-</p>
+
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
