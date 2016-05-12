@@ -1,9 +1,9 @@
 (function () {
   'use strict';
 
-  L.mapbox.accessToken = 'pk.eyJ1IjoiY2hyaXNodW50IiwiYSI6ImNpZmU1ZWZwNjZoMWhzeWx4cXE4NzNnNncifQ.dUBxoDUgW3vUAM6Fw8p84Q';
+  L.mapbox.accessToken = "pk.eyJ1IjoiY2hyaXNodW50IiwiYSI6ImNpZmU1ZjMybjZmenFza2tuOXNhbXcxZXUifQ.T1gtwZJYeZX_ACdZWAl-rA";
 
-  var map = L.mapbox.map("map", "mapbox.streets", {
+  var map = L.mapbox.map("map", null, {
         attributionControl: false
       }).setView([45.54, -122.65], 5),
       trackLayerGroup = L.layerGroup().addTo(map),
@@ -11,13 +11,9 @@
       photoCluster = (new L.MarkerClusterGroup()).addTo(map),
       tracks = {};
 
-  map.scrollWheelZoom.disable();
+  L.mapbox.styleLayer("mapbox://styles/mapbox/outdoors-v9").addTo(map);
 
-  L.control.layers({
-    "Street": map.tileLayer,
-    "Satellite": L.mapbox.tileLayer("mapbox.satellite"),
-    "Hybrid": L.mapbox.tileLayer("mapbox.streets-satellite")
-  }).addTo(map);
+  map.scrollWheelZoom.disable();
 
   // Hide the loading image
   function hideLoader() {
