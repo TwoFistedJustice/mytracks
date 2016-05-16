@@ -39,7 +39,7 @@ http://mytracks.co/map.html?
 
 ```bash
 # This reduces the track to 250 points and copies it to /gpx
-$ ./bin/import-track /path/to/YYYY-MM-DD.gpx
+$ ./script/import-track /path/to/YYYY-MM-DD.gpx
 ```
 
 ## Adding photos
@@ -52,5 +52,5 @@ $ ./bin/import-track /path/to/YYYY-MM-DD.gpx
 ```bash
 # This extracts the GPS information from every photo in photos/ and rebuilds
 # the photo list in assets/js/map/photos.js
-$ ./bin/refresh-photos
+$ ./script/refresh-photos
 ```
