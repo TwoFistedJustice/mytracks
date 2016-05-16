@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+# Import a new GPS track.
+#
+# This reduces the track to 250 points and copies it to /gpx
+#
+# Usage:
+#  $ import-track /path/to/file.gpx
+
+if [ -z "$1" ] ; then
+  printf "Usage: import-track /path/to/file.gpx\n"
+  exit 0
+fi
+
+function filesize() {
+  echo "$(du -h $1 | cut -f 1)"
+}
+
+inpath=$1
+filename=$(basename $inpath)
+outpath="gpx/$(echo $filename | awk '{print tolower($0)}')"
+date="${filename%.*}"
+
+echo "Reducing $inpath ($(filesize $inpath))..."
+/Applications/GPSBabelFE.app/Contents/MacOS/gpsbabel -w -r -t -i gpx -f $inpath -x simplify,count=250 -o gpx -F $outpath
+echo "Saved to $outpath ($(filesize $outpath))."
+
+echo "Committing changes."
+git aa
+git c -m "Add track for $date"
+git date $date
