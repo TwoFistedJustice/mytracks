@@ -4,7 +4,7 @@ author_profile: true
 permalink: /contact
 ---
 
-I see that we seem to have some stuff in common.
+I see that we have some stuff in common...
 
 Perhaps you're planning an amazing trip and have questions, or you're passing
 through town and want me to buy you coffee, or you think I'm doing something
