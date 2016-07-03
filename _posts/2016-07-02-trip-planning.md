@@ -1,5 +1,5 @@
 ---
-title: "Trip Planning"
+title: "Trip planning"
 category: videos
 ---
 
