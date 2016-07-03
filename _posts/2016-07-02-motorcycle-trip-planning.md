@@ -1,5 +1,5 @@
 ---
-title: "Trip planning"
+title: "Motorcycle trip planning"
 category: videos
 ---
 
