@@ -23,6 +23,7 @@ This list does not include the tools I carry, but I've talked about those in
 ## Makes me faster
 - [112 link DID 520VX2 X-Ring chain](http://didchain.com)
 - [14/50 Supersprox steel sprockets](http://supersproxusa.com)
+- [FMF Powercore 4 Exhaust + FMF Fuel programmer](http://fmfracing.com)
 - [12oclockLabs SpeedoDRD Speedometer Healer](http://12oclocklabs.com)
 - [No Toil air filter](http://notoil.com)
 - [Pivot Pegz mark 3](http://soloracer.com/wr250pivotpegz.html)
@@ -35,7 +36,6 @@ This list does not include the tools I carry, but I've talked about those in
 - [Double take mirrors](http://doubletakemirror.com)
 - [Dunlop D606 front/rear tires](http://dunlopmotorcycletires.com)
 - [Edge tail light kit](http://soloracer.com/edgetaillight.html)
-- [FMF Powercore 4 Exhaust + FMF Fuel programmer](http://fmfracing.com)
 - [Flatland skid plate and radiator guard](http://flatlandracing.com)
 - [Sandman Freedom Case Saver kit](http://sites.google.com/site/sandmanparts)
 - [Suspension by Konflict Motorsports](http://konflictmotorsports.com)
