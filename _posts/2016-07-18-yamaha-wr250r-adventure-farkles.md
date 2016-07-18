@@ -21,26 +21,26 @@ This list does not include the tools I carry, but I've talked about those in
 [another post](/notes/2016/05/20/what-tools-do-you-carry-on-your-motorcycle/).
 
 ## Makes me faster
-- [112 link DID 520VX2 X-Ring chain](http://didchain.com)
-- [14/50 Supersprox steel sprockets](http://supersproxusa.com)
 - [FMF Powercore 4 Exhaust + FMF Fuel programmer](http://fmfracing.com)
 - [12oclockLabs SpeedoDRD Speedometer Healer](http://12oclocklabs.com)
 - [No Toil air filter](http://notoil.com)
+- [14/50 Supersprox steel sprockets](http://supersproxusa.com)
+- [112 link DID 520VX2 X-Ring chain](http://didchain.com)
 - [Pivot Pegz mark 3](http://soloracer.com/wr250pivotpegz.html)
 - [ProTaper bars](http://www.protaper.com)
 
 ## Makes me safer
-- [Antigravity YTZ7-8 8-Cell lithium battery](http://antigravitybatteries.com)
 - [Brake protection package deal](http://soloracer.com/wr250rbrakegrd.html)
 - [Cyclops LED headlight](http://cyclopsadventuresports.com)
+- [Edge tail light kit](http://soloracer.com/edgetaillight.html)
 - [Double take mirrors](http://doubletakemirror.com)
 - [Dunlop D606 front/rear tires](http://dunlopmotorcycletires.com)
-- [Edge tail light kit](http://soloracer.com/edgetaillight.html)
 - [Flatland skid plate and radiator guard](http://flatlandracing.com)
 - [Sandman Freedom Case Saver kit](http://sites.google.com/site/sandmanparts)
 - [Suspension by Konflict Motorsports](http://konflictmotorsports.com)
 - [Woody's Wheel Works front wheel](http://www.woodyswheelworks.com)
 - [Zeta heel guard](http://soloracer.com/wr250rheelgrd.html)
+- [Antigravity YTZ7-8 8-Cell lithium battery](http://antigravitybatteries.com)
 
 ## Makes me ADVer
 - [Garmin Amps Rugged RAM Mount + Garmin Montana 600](http://garmin.com)
@@ -52,7 +52,7 @@ This list does not include the tools I carry, but I've talked about those in
 - [Wolfman Luggage Rolie Bag](http://wolfmanluggage.com)
 
 ## Makes me fancier
+- [Yamaha white plastics](http://soloracer.com/wr250plastic.html)
 - [Screens For Bikes wind shield](http://screensforbikes.com)
 - [Tusk Racing axle block](http://tuskoffroad.com)
-- [Yamaha white plastics](http://soloracer.com/wr250plastic.html)
 - [Zeta XC flashing hand protectors](http://zeta-racing.com)
