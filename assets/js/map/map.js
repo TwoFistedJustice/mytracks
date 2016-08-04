@@ -13,7 +13,8 @@
 
   L.mapbox.styleLayer("mapbox://styles/mapbox/outdoors-v9").addTo(map);
 
-  map.scrollWheelZoom.disable();
+  // Uncomment to disable scroll wheel zoom
+  // map.scrollWheelZoom.disable();
 
   // Hide the loading image
   function hideLoader() {
