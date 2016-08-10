@@ -3,15 +3,6 @@ title: "Adventure"
 category: videos
 ---
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/zIOIuHulShU"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
-
-```
 Adventure.
 It's what drives us to explore the unknown.
 What enriches our lives with the colorful experiences,
@@ -29,4 +20,11 @@ Conquer one of those fears and make some tracks that I can borrow.
 
 You've got some amazing stuff right out your door.
 Share it with others and encourage them to explore.
-```
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/zIOIuHulShU"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
