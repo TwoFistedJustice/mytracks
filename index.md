@@ -1,5 +1,6 @@
 ---
 title: "Adventure Time"
+layout: single
 author_profile: true
 header:
   overlay_image: splash-photo.jpg
