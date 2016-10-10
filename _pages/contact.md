@@ -1,5 +1,6 @@
 ---
 title: "Hi there!"
+layout: single
 author_profile: true
 permalink: /contact
 ---
